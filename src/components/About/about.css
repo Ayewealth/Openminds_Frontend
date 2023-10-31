@@ -1,0 +1,217 @@
+/* ================================= About ============================ */
+.bg {
+  background-color: var(--body-color);
+}
+.bg2 {
+  background-color: var(--input-color);
+}
+.about__banner {
+  display: flex;
+  gap: 1rem;
+  height: 100%;
+}
+.about__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.8rem;
+  width: 100%;
+}
+#head__title {
+  color: var(--first-color);
+  font-weight: var(--font-medium);
+}
+.about__title h3 {
+  color: var(--black-font-color);
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+#head__p {
+  color: #7f7f7f;
+  font-weight: var(--font-medium);
+  font-size: var(--smaller-font-size);
+  width: 80%;
+}
+.about__title button {
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  border: 1px solid var(--first-color);
+  color: var(--first-color);
+  font-weight: var(--font-semi-bold);
+  background: linear-gradient(to right, var(--first-color) 50%, #fff 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+  margin-top: 1rem;
+}
+.about__title button:hover {
+  background-position: left bottom;
+  color: #fff;
+  cursor: pointer;
+}
+.about__img {
+  width: 100%;
+}
+.about__img img {
+  border-radius: 10px;
+}
+
+/* ================================ company news ==================================== */
+.news__bg {
+  background-color: var(--first-color);
+}
+.news_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+.news_container p {
+  color: #fff;
+  font-weight: var(--font-semi-bold);
+}
+.news_container span {
+  font-weight: 100;
+}
+
+/* =========================== Testimonal ================================== */
+.testimonial__container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.testimonail__head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+.testimonail__head h3 {
+  font-weight: var(--font-medium);
+  font-size: var(--h2-font-size);
+  margin-bottom: 10px;
+}
+.testimonail__head p {
+  font-size: var(--small-font-size);
+  color: #7f7f7f;
+  font-weight: var(--font-medium);
+  width: 40%;
+}
+
+/* ================================== Story =================================== */
+.story__container {
+  display: flex;
+  gap: 2rem;
+  height: 100%;
+}
+.story__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.8rem;
+  width: 100%;
+}
+.story__title h3 {
+  font-weight: var(--font-semi-bold);
+  font-size: var(--h1-font-size);
+}
+.story__title p {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  width: 95%;
+  line-height: 1.9rem;
+  color: #7f7f7f;
+}
+.story__img {
+  width: 100%;
+}
+.story__img img {
+  border-radius: 10px;
+}
+
+/* ===================================== Join =================================== */
+.join__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  gap: 1rem;
+}
+.join__container p {
+  color: #fff;
+  font-weight: var(--font-semi-bold);
+}
+.join__container button {
+  padding: 0.7rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  font-weight: var(--font-semi-bold);
+  cursor: pointer;
+}
+.join__container button a {
+  color: var(--first-color);
+}
+
+/* ======================== Extra ===================================== */
+.extra__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.teach,
+.vision,
+.blog {
+  padding: 2rem;
+  color: #fff;
+  border-radius: 5px;
+  position: relative;
+  transition: all 0.3s ease-out;
+}
+
+.teach h3,
+.vision h3,
+.blog h3 {
+  color: #fff;
+  font-size: var(--h2-font-size);
+}
+
+.teach p,
+.vision p,
+.blog p {
+  font-weight: var(--font-semi-bold);
+  line-height: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.teach a,
+.vision a,
+.blog a {
+  color: #fff;
+  font-size: var(--small-font-size);
+  font-weight: var(--font-semi-bold);
+}
+
+.teach {
+  background-color: #ff9a55;
+}
+.teach:hover {
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+  box-shadow: 0 14px 26px #ff9a55;
+}
+.vision {
+  background-color: var(--first-color);
+}
+.vision:hover {
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+  box-shadow: 0 14px 26px var(--first-color);
+}
+.blog {
+  background-color: var(--first-color-lighter);
+}
+.blog:hover {
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+  box-shadow: 0 14px 26px var(--first-color-lighter);
+}
